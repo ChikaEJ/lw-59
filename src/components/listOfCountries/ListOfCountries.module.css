@@ -1,0 +1,8 @@
+.countryListItem{
+    cursor: pointer;
+    margin-top: 5px;
+    font-weight: 800;
+}
+.countryListItem:nth-child(even){
+    background-color: #ebe9e9;
+}

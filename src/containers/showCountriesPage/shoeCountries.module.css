@@ -1,0 +1,18 @@
+.showCountryBlock{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1%;
+    border: dotted black 1px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e3e1e1;
+
+}
+.countryList{
+    display: flex;
+    height: 650px;
+    flex-direction: column;
+    padding: 3%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}

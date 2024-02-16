@@ -1,11 +1,17 @@
 import './App.css';
+import { Routes, Route } from 'react-router-dom';
 import MessageList from './containers/MessageList/MessageList';
+import ShowCountries from './containers/showCountriesPage/showCountries';
 
 function App() {
   return (
-    <div className="App">
-      <MessageList />
+    <div  >
+      <Routes>
+        <Route path="/" element={<MessageList />} />
+        <Route path="countries" element={<ShowCountries />} />
+      </Routes>
     </div>
+
   );
 }
 
